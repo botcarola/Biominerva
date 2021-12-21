@@ -1,51 +1,48 @@
  @import "_variables";
 
- nav{
-    
+ nav{    
      display: flex;
      flex-direction: column;
      align-items: center;
-     color: $primarioTexto;
+     color: $primarioTexto; 
 
-     .nav-container-logo{
+    .nav-container-logo{
          display: flex;
          justify-content: center;
          width: 100%;
-         border-bottom: 1.5px solid rgb(179, 179, 179);
-         
+         border-bottom: 1.5px solid #D8DF20;         
      }
      
      .nav-logo{
-        width: 350px;
-         padding: 20px;   
-         
+        width: 400px;
+                     
          img{
              width: 100%;
              height: 100%;
          }
-     }
-
-     .nav-list{ 
-         width: 100%;        
-         display: flex;
-         justify-content: center;                  
-         padding: 30px 0px;
-         background-color: rgb(243, 243, 243);         
-         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      
-         .list-links{  
-             width: 30%;
-             display: flex;
-             justify-content: space-between;                                     
-             font-weight: 500;
-
-            li{
-
-                a{
-                    color: $primarioTexto;
-                }
-            }
-
-         }
-     }
+     }    
  }
+
+ .navegation-list{ 
+    width: 100%;        
+    display: flex;
+    justify-content: center;                  
+    padding: 30px 0px;
+    background-color: rgb(243, 243, 243);         
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0;
+          
+    .list-links{  
+        width: 30%;
+        display: flex;
+        justify-content: space-between;                                     
+        font-weight: 500;
+
+       li{
+           a{
+               color: $primarioTexto;
+           }
+       }
+    }
+}
