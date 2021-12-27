@@ -1,0 +1,28 @@
+@import "variables";
+
+.container-tec-verde{
+    background: url(background-tv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    section{
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            h2{
+                font-size: 35px;
+                margin: 20px 0px;
+            }
+            p{
+                font-size: 23px;
+                margin: 10px 0px;
+            }
+        }
+    }
+
+}

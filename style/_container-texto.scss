@@ -1,0 +1,27 @@
+@import "variables";
+
+.container-texto{
+    padding: 35px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: $primarioTexto;
+    color: whitesmoke;
+    text-align: center;
+    article{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 20px;
+        }
+        .img-texto{
+            width: 300px;
+            margin: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+}

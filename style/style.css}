@@ -101,7 +101,7 @@ nav .nav-logo img {
 }
 
 .container-texto {
-  padding: 35px 0px;
+  padding: 20px 0px;
   display: flex;
   justify-content: center;
   background-color: #6D6E72;
@@ -125,26 +125,4 @@ nav .nav-logo img {
   height: 100%;
 }
 
-.container-tec-verde {
-  background: url(background-tv.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.container-tec-verde section article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.container-tec-verde section article h2 {
-  font-size: 35px;
-  margin: 20px 0px;
-}
-.container-tec-verde section article p {
-  font-size: 23px;
-  margin: 10px 0px;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css%7D.map */
